@@ -1,0 +1,201 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: center; */
+            /* width: 100%; */
+        }
+        .test {
+            width: 800px;
+            margin: 20px;
+        }
+        .biodata {
+            width: 600px;
+            margin: 20px;
+        }
+        p {
+            margin: 20px;
+        }
+        .biodata {
+            width: 400px;
+        }
+        .personal {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .personal::after, .personal::before {
+        display: table;
+        }
+        .personal::after {
+        clear: both;
+        }
+        /* .bio, .foto {
+            margin: 15px;
+        } */
+
+        .foto {
+            margin-top: 65px;
+        }
+        .atas {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px;
+            padding: 15px;
+            background-color: black;
+            color: white;
+        }
+        /* p {
+            color: white;
+            font-size: large;
+            font-style: italic;
+
+        } */
+        
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="atas">
+        <div>
+            <p>Curiculum Vitea</p>
+        </div>
+        <div>
+            <p>Jepang, Hokaido, 35 December 2020</p>
+        </div>
+    </div>
+<div class="container">
+    <!-- PERSONAL DETAIL -->
+    <div class="personal">
+        <div class="bio">
+            <p class="font-weight-bold">Personal Detail</p>
+            <table class="table biodata">
+                <tr>
+                    <td>Name</td>
+                    <td>Tri Widyo Asmoro</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>Japan Street Hokaido Sakura Naruto Barutho</td>
+                </tr>
+                <tr>
+                    <td>Cellphone</td>
+                    <td>08741111111</td>
+                </tr>   
+                <tr>
+                    <td>Email</td>
+                    <td>kaguya@mail.com</td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>35 December 2020</td>
+                </tr>
+                <tr>
+                    <td>Nationality</td>
+                    <td>Japan</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>Merital Status</td>
+                    <td>Single Merid</td>
+                </tr>
+                <tr>
+                    <td>Religion</td>
+                    <td>Ninja</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="foto">
+            <div class="card" style="width: 18rem;">
+                <img src="./ASSETS/naruto.jpg" class="card-img-top" alt="Naruto">
+                <div class="card-body">
+                <p class="card-text">Hokage</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Educational Detail -->
+    <div>
+        <p class="font-weight-bold">Educational Detail</p>
+        <table class="table table-dark test">
+            <tr>
+                <td>1999 - 2005</td>
+                <td>State Elemtary School 1 Candirenggo</td>
+            </tr>
+            <tr>
+                <td>1999 - 2005</td>
+                <td>State Elemtary School 1 Candirenggo</td>
+            </tr>
+            <tr>
+                <td>1999 - 2005</td>
+                <td>State Elemtary School 1 Candirenggo</td>
+            </tr>    
+        </table>
+
+    </div>
+    
+    <p class="font-weight-bold">Jobs Experiences</p>
+    <table class="table table-dark test">
+        <tr>
+            <th>Jobs</th>
+            <th>Sertificate</th>
+            <th>Experiences</th>
+        </tr>
+        <tr>
+            <td>UGM</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Sekolah Vokasi</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Departemen Teknik Sipil</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+    </table>
+    <!-- SKILL -->
+    <div>
+        <p class="font-weight-bold">Educational Detail</p>
+        <table class="table table-dark test">
+            <tr>
+                <td>Electrician Technician</td>
+            </tr>
+            <tr>
+                <td>Able to operate Microsoft Office (Word, Excel, Power Point</td>
+            </tr>
+            <tr>
+                <td>Able to finish job on time</td>
+            </tr>    
+        </table>
+    </div>
+    <!-- PERSONALITY -->
+    <div>
+        <p class="font-weight-bold">Educational Detail</p>
+        <table class="table table-dark test">
+            <tr>
+                <td>Good Attitude, Kind, Communicative, Terget Oriented, Diclipine, Honest, Hard Worker
+                    and Responsible
+                </td>
+            </tr> 
+        </table>
+    </div>
+</div>
+</body>
+</html>
